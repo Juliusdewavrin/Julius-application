@@ -26,7 +26,7 @@
 
     <div class="row multi-columns-row">
 
-      <div class="col-sm-3 col-md-2 col-lg-1 col-lg-offset-1">
+      <div class="col-sm-3 col-md-2 col-md-offset-1 col-lg-1 col-lg-offset-1">
         <div class="box-icon text-center">
           <div class="icon-box-icon">
             <%= image_tag("Artboard 1.png")%>
@@ -114,33 +114,155 @@
 <!-- END FACTS -->
 
 <!-- EXPERIENCES -->
+<!-- TEXT TABS CENTER -->
+<section class="module divider-bottom">
+  <div class="container">
 
-  <div class="container ">
     <div class="row">
-      <div class="col-sm-4 col-sm-offset-2">
-        <div class="text-center m-t-40">
-          <h1>EXPERIENCES</h1>
+			<div class="col-sm-6 col-sm-offset-3">
+				<div class="module-header text-center">
+					<h2 class="montserrat text-uppercase">Short Resume</h2>
+					<p class="lead divider-line">We are branding &amp; digital studio from London.</p>
+				</div>
+			</div>
+    </div>
 
-          <section id="video" class="module bg-brand-alfa-90 color-white parallax" data-background="" data-jarallax-video="" style="background-image: none; background-attachment: scroll; background-size: auto;" data-jarallax-original-styles="background-image: url(&quot;assets/images/module-17.jpg&quot;);">
-      			<div class="container">
 
-      				<div class="row">
-      					<div class="col-sm-12">
+    <!-- <ul class="nav-text-tabs">
+      <li><a href="#tabs-1-tab-1" data-toggle="tab">Sourcing &amp;Creation <br> (2012</a></li>
+      <li><a href="#tabs-1-tab-2" data-toggle="tab">Yucall <br> (2013-2015)</a></li>
+      <li><a href="#tabs-1-tab-3" data-toggle="tab">Cubyn <br> (2016)</a></li>
+    </ul> -->
 
-      						<div class="text-center">
-      							<a href="https://www.youtube.com/watch?v=lEfN0PHHcDU" class="video-pop-up play-btn white"><i class="fa fa-play"></i></a>
-      							<h1 class="text-300 m-t-40">Be Creative With Neomax</h1>
-      						</div>
-
-      					</div>
-      				</div><!-- .row -->
-
-      			</div>
-          </section>
+    <div class="container ">
+      <div class="row nav-text-tabs">
+        <div class="col-lg-2">
+          <div class="box-icon text-center">
+            <div class="icon-box-icon">
+              <a href="#tabs-1-tab-1" data-toggle="tab"><%= image_tag("Wagon_logo.png") %></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="box-icon text-center">
+            <div class="icon-box-icon">
+              <a href="#tabs-1-tab-2" data-toggle="tab"><%= image_tag("Cubyn_logo.png") %></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="box-icon text-center">
+            <div class="icon-box-icon">
+                <a href="#tabs-1-tab-3" data-toggle="tab"><%= image_tag("Yucall_logo.png") %></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="box-icon text-center">
+            <div class="icon-box-icon">
+              <a href="#tabs-1-tab-4" data-toggle="tab"><%= image_tag("Gem_logo.png")%></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="box-icon text-center">
+            <div class="icon-box-icon">
+              <a href="#tabs-1-tab-5" data-toggle="tab"><%= image_tag("Boulanger_logo.png")%></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="box-icon text-center">
+            <div class="icon-box-icon">
+              <a href="#tabs-1-tab-6" data-toggle="tab"><%= image_tag("Bba_edhec_logo.png")%></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div><!-- .row -->
+
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+
+        <!-- TABS -->
+        <div class="text-center">
+          <div class="tab-content">
+
+            <div id="tabs-1-tab-1" class="tab-pane active">
+              <p>WAGON</p>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-2">
+                    <div class="box-icon text-center">
+                      <div class="icon-box-icon">
+                        <%= image_tag("Boulanger_logo.png")%>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2">
+                    <div class="box-icon text-center">
+                      <div class="icon-box-icon">
+                        <%= image_tag("Bba_edhec_logo.png")%>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="tabs-1-tab-2" class="tab-pane">
+              <p>Cubyn </p>
+            </div>
+
+            <div id="tabs-1-tab-3" class="tab-pane">
+              <p>Yucall </p>
+            </div>
+
+            <div id="tabs-1-tab-4" class="tab-pane">
+              <p>GEM </p>
+            </div>
+
+            <div id="tabs-1-tab-5" class="tab-pane">
+              <p>BOULANGER </p>
+            </div>
+
+            <div id="tabs-1-tab-6" class="tab-pane">
+              <p>BBA EDHEC </p>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- END TABS -->
+
+      </div>
+    </div><!-- .row -->
+
+  </div>
+</section>
+<!-- END TEXT TABS CENTER -->
+
+
+
+<!-- VIDEO TRY -->
+    <section id="video" class="module bg-brand-alfa-90 color-white parallax" data-background="" data-jarallax-video="" style="background-image: none; background-attachment: scroll; background-size: auto;" data-jarallax-original-styles="background-image: url(&quot;assets/images/module-17.jpg&quot;);">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-sm-12">
+
+						<div class="text-center">
+							<a href="https://www.youtube.com/watch?v=lEfN0PHHcDU" class="video-pop-up play-btn white"><i class="fa fa-play"></i></a>
+							<h1 class="text-300 m-t-40">Be Creative With Neomax</h1>
+						</div>
+
+					</div>
+				</div><!-- .row -->
+
+			</div>
+    </section>
+
 
 
   <!-- ABOUT -->
@@ -191,7 +313,7 @@
 		</section>
 		<!-- END ABOUT -->
 
-    <!-- ABOUT -->
+    <!-- COMPUTERS -->
   		<section id="about" class="module pull-image">
 
   			<div class="col-md-6 col-sm-4 p-0">
@@ -213,61 +335,61 @@
   			</div>
 
   		</section>
-  		<!-- END ABOUT -->
+  	<!-- END COMPUTERS -->
 
 <!-- END EXPERIENCES  -->
 
-<!-- EDUCATION
+<!-- EDUCATION -->
 
-<!-- TEXT TABS CENTER -->
-<section class="module divider-bottom">
-	<div class="container">
+  <!-- TEXT TABS CENTER -->
+  <section class="module divider-bottom">
+  	<div class="container">
 
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">
+  		<div class="row">
+  			<div class="col-sm-10 col-sm-offset-1">
 
-				<!-- TABS -->
-				<div class="text-center">
+  				<!-- TABS -->
+  				<div class="text-center">
 
-					<ul class="nav-text-tabs">
-						<li class="active"><a href="#tabs-3-tab-1" data-toggle="tab">Home</a></li>
-						<li><a href="#tabs-3-tab-2" data-toggle="tab">Profile</a></li>
-						<li><a href="#tabs-3-tab-3" data-toggle="tab">Messages</a></li>
-						<li><a href="#tabs-3-tab-4" data-toggle="tab">Settings</a></li>
-					</ul>
+  					<ul class="nav-text-tabs">
+  						<li class="active"><a href="#tabs-3-tab-1" data-toggle="tab">Home</a></li>
+  						<li><a href="#tabs-3-tab-2" data-toggle="tab">Profile</a></li>
+  						<li><a href="#tabs-3-tab-3" data-toggle="tab">Messages</a></li>
+  						<li><a href="#tabs-3-tab-4" data-toggle="tab">Settings</a></li>
+  					</ul>
 
-					<div class="tab-content">
+  					<div class="tab-content">
 
-						<div id="tabs-3-tab-1" class="tab-pane active">
-							<p><img src="assets/images/slider/1.jpg" alt=""></p>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-						</div>
+  						<div id="tabs-3-tab-1" class="tab-pane active">
+  							<p><img src="assets/images/slider/1.jpg" alt=""></p>
+  							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+  						</div>
 
-						<div id="tabs-3-tab-2" class="tab-pane">
-							<p><img src="assets/images/slider/2.jpg" alt=""></p>
-							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-						</div>
+  						<div id="tabs-3-tab-2" class="tab-pane">
+  							<p><img src="assets/images/slider/2.jpg" alt=""></p>
+  							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+  						</div>
 
-						<div id="tabs-3-tab-3" class="tab-pane">
-							<p><img src="assets/images/slider/3.jpg" alt=""></p>
-							<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-						</div>
+  						<div id="tabs-3-tab-3" class="tab-pane">
+  							<p><img src="assets/images/slider/3.jpg" alt=""></p>
+  							<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+  						</div>
 
-						<div id="tabs-3-tab-4" class="tab-pane">
-							<p><img src="assets/images/slider/4.jpg" alt=""></p>
-							<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
-						</div>
+  						<div id="tabs-3-tab-4" class="tab-pane">
+  							<p><img src="assets/images/slider/4.jpg" alt=""></p>
+  							<p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+  						</div>
 
-					</div>
+  					</div>
 
-				</div>
-				<!-- END TABS -->
+  				</div>
+  				<!-- END TABS -->
 
-			</div>
-		</div><!-- .row -->
+  			</div>
+  		</div><!-- .row -->
 
-	</div>
-</section>
-<!-- END TEXT TABS CENTER -->
+  	</div>
+  </section>
+  <!-- END TEXT TABS CENTER -->
 
 <!-- END EDUCATION -->
